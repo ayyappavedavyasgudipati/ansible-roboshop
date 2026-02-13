@@ -50,7 +50,7 @@
 
   - name: copy user service
     ansible.builtin.template:
-      src: /user.service
+      src: user.service
       dest: /etc/systemd/system/user.service       
 
   - name: daemon reload
